@@ -1,13 +1,13 @@
 # Dynamic-Programming
-This repositoy contains various projects using dynamic programming, that is, recursively called functions that save as they go. Note that these files are built using Rcpp, and are meant to be called in R via the Rcpp package.
+This repositoy contains various projects using dynamic programming, that is, recursively called functions that save as they go. Note that these programs are built using Rcpp, and are meant to be called in R via the Rcpp package.
 
 
 ## Binomial Coefficient
-This file calculates the binomial coefficient (https://en.wikipedia.org/wiki/Binomial_coefficient). 
+This program calculates the binomial coefficient (https://en.wikipedia.org/wiki/Binomial_coefficient). 
 
 
 ## Money-Changer 
-This file enumerates all of the possible ways to make change from a desired amount of currency. To run this file, download and run in the command line with several sys argument: the amount of money to be changed followed by all denominations. For example, you could ask to convert $100 using standard bills by running this file in the command line as follows:
+This program enumerates all of the possible ways to make change from a desired amount of currency. To run this file, download and run in the command line with several sys argument: the amount of money to be changed followed by all denominations. For example, you could ask to convert $100 using standard bills by running this file in the command line as follows:
 
 python money_changer.py 100 100 50 20 10 5 1
 
